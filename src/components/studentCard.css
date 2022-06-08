@@ -1,0 +1,66 @@
+body {
+  background-color: #e8e8e8;
+}
+
+.card-container {
+  gap: 1em;
+  border-bottom: 0.5px solid lightgray;
+  padding-left: 1em;
+  padding-bottom: 15px;
+  background-color:white;
+  width: 800px;
+}
+
+.profile-pic {
+  border: 0.3px solid lightgray;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+  align-self: center;
+  float: left;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+p {
+  margin: 1px;
+  line-height: 150%;
+}
+
+h1 {
+  margin: 15px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-info {
+  color: #212121;
+  margin-left: 185px;
+  /* position: relative; */
+}
+
+.btn-plusminus {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: darkgrey;
+  font-size: 60px;
+}
+
+.test-score {
+  padding-left: 190px;
+  margin-top: 5px;
+  color: #212121;
+}
+
+.tags-container {
+  /* border: 1px solid black; */
+  margin-top: 10px;
+  margin-left: 190px;
+}
