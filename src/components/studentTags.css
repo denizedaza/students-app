@@ -1,0 +1,23 @@
+.tag-search {
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  border-bottom: 1.5px solid lightgray;
+  background-color:rgb(255, 255, 255);
+  margin-top: 20px;
+  font-size: 14px;
+  display: block;
+}
+
+.tag-search:focus {
+  outline: none;
+  border-bottom: 2px solid darkgrey;
+}
+
+.tag {
+  background-color: rgb(230, 230, 230);
+  padding: 0.5em;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 3px;
+  display: inline-block;
+}
