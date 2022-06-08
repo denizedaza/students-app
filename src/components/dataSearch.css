@@ -1,0 +1,16 @@
+.search-bar {
+  /* position: fixed; */
+  width: 100%;
+  max-width: 800px;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  border-bottom: 1.5px solid lightgray;
+  background-color: white; 
+  height: 43px;
+  font-size: 20px;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-bottom: 1.5px solid black;
+}
