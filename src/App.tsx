@@ -96,7 +96,7 @@ function App() {
 
   let shownStudents: Array<Student> = [];
   filteredNameSearch.length > 0
-    ? (shownStudents = combinedSearchResults)
+    ? (shownStudents = combinedSearchResults as Student[])
     : (shownStudents = students);
 
   return (
